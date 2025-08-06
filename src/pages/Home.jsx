@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import bgHero from '../assets/Food-Beverages-and-Agriculture.webp'
 import Contact from '../Section/Contact';
 import Img1 from "../assets/fruits-vegetable-snack-wooden-platter-min.jpg"
+import ProductImageSlider from '../Section/Products';
 const Home = () => {
   return (
     <div className="bg-white text-gray-800">
@@ -85,7 +86,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+      {/* Product Gallary */}
+<ProductImageSlider/>
       {/* FAQ SECTION */}
       <section className="py-16 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
