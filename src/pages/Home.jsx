@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import bgHero from '../assets/Food-Beverages-and-Agriculture.webp'
 import Contact from '../Section/Contact';
-import Img1 from "../assets/fruits-vegetable-snack-wooden-platter-min.jpg"
+import Img1 from "../assets/Products/About.jpg"
 import ProductImageSlider from '../Section/Products';
 const Home = () => {
   return (
